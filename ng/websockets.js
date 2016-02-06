@@ -1,5 +1,5 @@
 angular.module('app')
-.run(function($rootScope, $timeout){
+.run(function($rootScope, $timeout, $window){
   //Angular run component. Executes late in the initialization.
   (function connect(){
     //var url = 'ws://localhost:3000'
