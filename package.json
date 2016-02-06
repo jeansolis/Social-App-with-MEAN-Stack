@@ -38,6 +38,8 @@
     "supertest": "^1.1.0"
   },
   "scripts": {
-    "test": "jshint . && mocha && karma start --single-run && protractor"
+    "test": "jshint . && mocha && karma start --single-run && protractor",
+    "start": "node boot.js",
+    "postinstall": "gulp build"
   }
 }
