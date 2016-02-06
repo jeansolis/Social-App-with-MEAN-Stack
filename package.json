@@ -39,6 +39,7 @@
   },
   "scripts": {
     "test": "jshint . && mocha && karma start --single-run && protractor",
-    "postinstall": "gulp build"
+    "start": "node boot.js",
+    "postinstall": "bower install && gulp build"
   }
 }
